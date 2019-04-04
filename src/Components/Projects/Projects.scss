@@ -64,3 +64,49 @@
     align-items: center;
     text-align: center;
 }
+
+@media (max-width: 600px){
+
+    .projects{
+        height: 420vh;
+    }
+    #project_div{
+        height: 210vh;
+        flex-direction: column;
+    }
+    #project1_info{
+        height: 110vh;
+        width: 100vw;
+    }
+    #project2_info{
+        height: 110vh;
+        width: 100vw;
+    }
+    #project1_carousel{
+        width: 100vw;
+    }
+    #project2_carousel{
+        width: 100vw;
+    }
+    #project2_info_dim{
+        height: 110vh;
+        width: 100vw;
+    }
+    // .bio{
+    //   height: 210vh;
+    //   width: 100vw;
+    //   display: flex;
+    //   flex-direction: column;
+    // }
+    // #bio_left{
+    //   width: 100vw;
+    //   height: 110vh;
+    // }
+    // #bio_right{
+    //   width: 100vw;
+    // }
+    // #bio_image{
+    //   height: auto;
+    //   width: 90vw;
+    // }
+}

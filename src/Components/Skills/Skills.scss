@@ -29,3 +29,14 @@
     cursor: pointer;
     color: black;
   }
+
+
+
+  @media(max-width: 600px){
+    #skills_logos_div{
+      width: 90vw;
+    }
+    .skills{
+      height: 150vh;
+    }
+  }

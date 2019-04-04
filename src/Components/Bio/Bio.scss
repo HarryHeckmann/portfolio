@@ -58,3 +58,23 @@ $display: flex;
     height: 90vh;
     box-shadow: 5px 0 5px 5px black
   }
+
+  @media(max-width: 600px){
+    .bio{
+      height: 210vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+    }
+    #bio_left{
+      width: 100vw;
+      height: 110vh;
+    }
+    #bio_right{
+      width: 100vw;
+    }
+    #bio_image{
+      height: auto;
+      width: 90vw;
+    }
+  }
