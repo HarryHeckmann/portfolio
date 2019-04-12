@@ -37,8 +37,8 @@ function Carousel1(props) {
                 </div>
             </Carousel>
             <div className='carousel_links_div'>
-                <a style={{color: 'black'}} className='bottom_carousel_link' href='https://up-date.love'>Check it Out</a>
-                <a style={{color: 'black'}} className='bottom_carousel_link' href='https://github.com/datemake/update'>View on Github</a>
+                <a target='_blank' style={{color: 'black'}} className='bottom_carousel_link' href='https://up-date.love'>Check it Out</a>
+                <a target='_blank' style={{color: 'black'}} className='bottom_carousel_link' href='https://github.com/datemake/update'>View on Github</a>
             </div>
         </div>
     );

@@ -34,8 +34,8 @@ function Carousel1(props) {
                 </div>
             </Carousel>
             <div className='carousel_links_div'>
-                <a className='bottom_carousel_link' href='https://bestPet.tech'>Check it Out</a>
-                <a className='bottom_carousel_link' href='https://github.com/HarryHeckmann/personal-project'>View on Github</a>
+                <a target='_blank' className='bottom_carousel_link' href='https://bestPet.tech'>Check it Out</a>
+                <a target='_blank' className='bottom_carousel_link' href='https://github.com/HarryHeckmann/personal-project'>View on Github</a>
             </div>
         </div>
     );
