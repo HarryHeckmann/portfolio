@@ -39,3 +39,12 @@
 .control-dots{
     padding-left: 0px
 }
+
+@media (max-width: 600px){
+    .carousel {
+        width: 80vw !important
+    }
+    .carousel_links_div{
+        width: 80vw;
+    }
+}

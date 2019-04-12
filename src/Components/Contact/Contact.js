@@ -7,7 +7,7 @@ function Contact(props) {
   
     return (
         <div className='contact'>
-            <div id='landing_center'>
+            <div id='contact_center'>
                 <h1 style={{color: 'white', fontSize: '600%', fontFamily: 'Barrio'}}>Let's Get Connected</h1>
                 <div>
                     <a className='bottom_carousel_link' href='https://www.linkedin.com/in/harry-heckmann/'>

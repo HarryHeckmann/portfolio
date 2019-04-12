@@ -34,7 +34,7 @@ function Projects(props) {
                         <p style={{marginTop: 0, fontFamily: 'Permanent Marker'}}>(Personal Project)</p>
                     </div>
                     <h1 id='bio_paragraph'>Employs a multi-faceted algorithm to fit dog breeds to a user's profile. Further allows users to search for and save real pets that fit the match using Petfinder's API. To top it off, a simple click of the button allows you to contact a shelter to inquire about a particular animal.</h1>
-                    <div style={{width: '50vw'}} id='skills_logos_div'>
+                    <div style={{width: '50vw'}} id='skills_logos_div_projects'>
                         <i style={{margin: '10px', color: 'white', fontSize: '200%'}} className="devicon-html5-plain"></i>
                         <i style={{margin: '10px', color: 'white', fontSize: '200%'}} className="devicon-css3-plain"></i>
                         <i style={{margin: '10px', color: 'white', fontSize: '200%'}} className="devicon-react-original"></i>
@@ -60,7 +60,7 @@ function Projects(props) {
                                 <p style={{color: 'white', marginTop: 0, fontFamily: 'Permanent Marker'}}>(Group Project)</p>
                             </div>
                             <h1 style={{color: 'white'}} id='bio_paragraph'>Online date-planning site that allows users to create, use, and review date plans. Powered by Google Places API and using Material UI throughout, it also adopts React Hooks for a large portion of component architecture. Firebase provides both the authentication and image storage.</h1>
-                            <div style={{width: '50vw'}} id='skills_logos_div'>
+                            <div style={{width: '50vw'}} id='skills_logos_div_projects'>
                                 <i style={{margin: '10px', color: 'white', fontSize: '200%'}} className="devicon-html5-plain"></i>
                                 <i style={{margin: '10px', color: 'white', fontSize: '200%'}} className="devicon-css3-plain"></i>
                                 <i style={{margin: '10px', color: 'white', fontSize: '200%'}} className="devicon-react-original"></i>

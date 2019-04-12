@@ -10,7 +10,12 @@
     justify-content: space-around;
     align-items: center;
 }
-
+#contact_center{
+  text-align: center;
+}
+#contact_center > h1{
+    font-size: 450% !important
+}
 #linkedin{
     border: {
         color: white;

@@ -64,6 +64,15 @@
     align-items: center;
     text-align: center;
 }
+#skills_logos_div_projects{
+    width: 70vw;
+    display: flex;
+    flex: {
+    direction: row;
+    wrap: wrap;
+    }
+    justify-content: center;
+}
 
 @media (max-width: 600px){
 
@@ -91,6 +100,12 @@
     #project2_info_dim{
         height: 110vh;
         width: 100vw;
+    }
+    #project1_info > div > h1{
+        font-size: 325% !important
+    }
+    #skills_logos_div_projects{
+        width: 70vw !important
     }
     // .bio{
     //   height: 210vh;

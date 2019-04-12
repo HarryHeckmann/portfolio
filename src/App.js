@@ -27,7 +27,7 @@ class App extends Component {
             {/* <h1 style={{fontSize: '600%', fontFamily: 'Permanent Marker'}}>Harry Heckmann</h1> */}
             {/* <h1 style={{fontSize: '600%', fontFamily: 'Megrim'}}>Harry Heckmann</h1> */}
             {/* <h1 style={{fontSize: '600%', fontFamily: 'IM Fell English SC'}}>Harry Heckmann</h1> */}
-            <h1 style={{fontSize: '600%', fontFamily: 'Barrio'}}>Harry Heckmann</h1>
+            <h1 id='harry' style={{fontSize: '600%', fontFamily: 'Barrio'}}>Harry Heckmann</h1>
             <h3 id='landing_button' onClick={() => this.scrollTo('bio')}>Let's Meet</h3>
           </div>
         </Element>

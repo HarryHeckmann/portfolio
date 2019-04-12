@@ -64,7 +64,10 @@ $display: flex;
       height: 210vh;
       width: 100vw;
       display: flex;
-      flex-direction: column;
+      flex-direction: column-reverse;
+    }
+    #bio_paragraph{
+      font-size: 150%;
     }
     #bio_left{
       width: 100vw;

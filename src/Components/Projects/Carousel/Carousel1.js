@@ -11,7 +11,7 @@ function Carousel1(props) {
 
     return (
         <div className='carousel_div'>
-            <Carousel showThumbs={false} width='45vw' showStatus={false}>
+            <Carousel classname='carousel' showThumbs={false} width='45vw' showStatus={false}>
                 <div style={{color: 'white'}}>
                     <img src={bestPet[0].link} />
                     <h1 id='carousel_title'>{bestPet[0].title}</h1>

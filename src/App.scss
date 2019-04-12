@@ -23,3 +23,9 @@
   cursor: pointer;
   color: teal
 }
+
+@media(max-width: 600px){
+  #harry {
+    font-size: 450% !important
+  }
+}
