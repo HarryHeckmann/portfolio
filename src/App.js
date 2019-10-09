@@ -9,40 +9,47 @@ import Contact from './Components/Contact/Contact'
 
 class App extends Component {
 
-  scrollTo = this.scrollTo.bind(this)
-  
-  scrollTo(section){
-    scroller.scrollTo(section, {
-      duration: 800,
-      delay: 0,
-      smooth: 'easeInOutCubic'
+  scroll = this.scroll.bind(this)
+
+  scroll(id){
+    let elmnt = document.getElementById(id);
+    elmnt.scrollIntoView({
+        behavior: 'smooth'
     })
   }
+  
+  // scrollTo(section){
+  //   scroller.scrollTo(section, {
+  //     duration: 800,
+  //     delay: 0,
+  //     smooth: 'easeInOutCubic'
+  //   })
+  // }
 
   render() {
     return (
-      <div>
-        <Element className="landing" name='landing'>
+      <div   >
+        <div  id='landing' >
           <div id='landing_center'>
             {/* <h1 style={{fontSize: '600%', fontFamily: 'Permanent Marker'}}>Harry Heckmann</h1> */}
             {/* <h1 style={{fontSize: '600%', fontFamily: 'Megrim'}}>Harry Heckmann</h1> */}
             {/* <h1 style={{fontSize: '600%', fontFamily: 'IM Fell English SC'}}>Harry Heckmann</h1> */}
             <h1 id='harry' style={{fontSize: '600%', fontFamily: 'Barrio'}}>Harry Heckmann</h1>
-            <h3 id='landing_button' onClick={() => this.scrollTo('bio')}>Let's Meet</h3>
+            <h3 id='landing_button' onClick={() => this.scroll('bio')}>Let's Meet</h3>
           </div>
-        </Element>
-        <Element name='bio'>
-          <Bio scrollTo={this.scrollTo}/>
-        </Element>
-        <Element name='skills'>
-          <Skills scrollTo={this.scrollTo}/>
-        </Element>
-        <Element name='projects'>
-          <Projects scrollTo={this.scrollTo}/>
-        </Element>
-        <Element name='contact'>
-          <Contact scrollTo={this.scrollTo}/>
-        </Element>
+        </div>
+        {/* <Element name='bio'> */}
+          <Bio scroll={this.scroll}/>
+        {/* </Element> */}
+        {/* <Element name='skills'> */}
+          <Skills scroll={this.scroll}/>
+        {/* </Element> */}
+        {/* <Element name='projects'> */}
+          <Projects scroll={this.scroll}/>
+        {/* </Element> */}
+        {/* <Element name='contact'> */}
+          <Contact scroll={this.scroll}/>
+        {/* </Element> */}
       </div>
     );
   }
