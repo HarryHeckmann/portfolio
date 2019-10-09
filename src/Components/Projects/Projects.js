@@ -23,7 +23,7 @@ function Projects(props) {
       }
     // console.log(bestPet)
     return (
-        <div className='projects'>
+        <div id='projects'>
             <div id='project_div'>
                 <div id='project1_carousel'>
                     <Carousel1 bestPet={bestPet}/>
