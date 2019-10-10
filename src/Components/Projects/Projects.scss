@@ -1,4 +1,4 @@
-.projects{
+#projects{
     height: 200vh;
     width: 100vw;
     display: flex;
@@ -76,7 +76,7 @@
 
 @media (max-width: 600px){
 
-    .projects{
+    #projects{
         height: 420vh;
     }
     #project_div{

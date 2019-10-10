@@ -14,13 +14,13 @@ import { Carousel } from 'react-responsive-carousel';
 
 function Projects(props) {
 
-    function scrollTo(section){
-        scroller.scrollTo(section, {
-          duration: 800,
-          delay: 0,
-          smooth: 'easeInOutCubic'
-        })
-      }
+    // function scrollTo(section){
+    //     scroller.scrollTo(section, {
+    //       duration: 800,
+    //       delay: 0,
+    //       smooth: 'easeInOutCubic'
+    //     })
+    //   }
     // console.log(bestPet)
     return (
         <div id='projects'>
@@ -46,12 +46,12 @@ function Projects(props) {
                     </div>
                     <div style={{marginTop: '5vh'}} id='skills_link_div'>
                         <img id='arrow_left' src={require('../../Photos/downward-rotation-white.png')}/>
-                        <h3 id='landing_button' onClick={() => scrollTo('projects2')}>But Wait, There's More!</h3>
+                        <h3 id='landing_button' onClick={() => props.scroll('projects2')}>But Wait, There's More!</h3>
                         <img id='arrow_right' src={require('../../Photos/downward-rotation-white.png')}/>
                     </div>
                 </div>
             </div>
-            <Element name='projects2'>
+            <section id='projects2'>
                 <div id='project_div'>
                     <div id='project2_info'>
                         <div id='project2_info_dim'>
@@ -72,7 +72,7 @@ function Projects(props) {
                             </div>
                             <div style={{marginTop: '5vh'}} id='skills_link_div'>
                                 <img id='arrow_left' src={require('../../Photos/downward-rotation-white.png')}/>
-                                <h3 style={{color: 'white'}} id='landing_button' onClick={() => props.scrollTo('contact')}>Get In Touch</h3>
+                                <h3 style={{color: 'white'}} id='landing_button' onClick={() => props.scroll('contact')}>Get In Touch</h3>
                                 <img id='arrow_right' src={require('../../Photos/downward-rotation-white.png')}/>
                             </div>
                         </div>
@@ -81,7 +81,7 @@ function Projects(props) {
                         <Carousel2 update={update}/>
                     </div>
                 </div>
-            </Element>
+            </section>
         </div>
     );
 }

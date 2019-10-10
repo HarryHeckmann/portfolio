@@ -6,7 +6,7 @@ import './Contact.scss';
 function Contact(props) {
   
     return (
-        <div className='contact'>
+        <div id='contact'>
             <div id='contact_center'>
                 <h1 style={{color: 'white', fontSize: '600%', fontFamily: 'Barrio'}}>Let's Get Connected</h1>
                 <div>
@@ -22,7 +22,7 @@ function Contact(props) {
                 </div>
                 <div style={{marginTop: '5vh', justifyContent: 'center'}} id='skills_link_div'>
                     <img id='arrow_left_end' src={require('../../Photos/downward-rotation-white.png')}/>
-                    <h3 style={{color: 'white'}} id='landing_button' onClick={() => props.scrollTo('landing')}>Let's Start Over</h3>
+                    <h3 style={{color: 'white'}} id='landing_button' onClick={() => props.scroll('landing')}>Let's Start Over</h3>
                     <img id='arrow_right_end' src={require('../../Photos/downward-rotation-white.png')}/>
                 </div>
             </div>

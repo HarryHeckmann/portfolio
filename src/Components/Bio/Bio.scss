@@ -60,7 +60,7 @@ $display: flex;
   }
 
   @media(max-width: 600px){
-    .bio{
+    #bio{
       height: 210vh;
       width: 100vw;
       display: flex;
