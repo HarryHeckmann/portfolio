@@ -5,7 +5,7 @@
   "homepage": "http://the-heck.tech/",
   "dependencies": {
     "gh-pages": "^2.0.1",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-responsive-carousel": "^3.1.47",
